@@ -5,7 +5,12 @@ const Navbar = () => {
         <h2 className="text-blue-500 text-2xl font-bold">
           <a href="/">Linkify</a>
         </h2>
-        <a className="text-blue-500" href="#">
+        <a
+          className="text-blue-500"
+          href="https://github.com/indranildeveloper/linkify"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source Code
         </a>
       </div>
