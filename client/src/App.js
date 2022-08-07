@@ -23,7 +23,7 @@ const App = () => {
         return;
       }
       setLoading(true);
-      const response = await fetch("/", {
+      const response = await fetch("/abc", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -36,6 +36,7 @@ const App = () => {
     } catch (err) {
       toast.error("Something went wrong!");
       console.error(err);
+      setLoading(false);
     }
   };
 
